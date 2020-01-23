@@ -55,6 +55,7 @@ salaries[ salaries$adjustments == max(salaries$adjustments), "adjustments"]
 paycut <- salaries[salaries$got_raise == FALSE, ]
 mean(paycut$adjustments)
 
+
 ## Consider: do the above averages match what you expected them to be based on 
 ## how you generated the salaries?
 
